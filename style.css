@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: rgb(30, 0, 51);
+    background-image: url('images/1647841762_spirit-world-avatar-the-last-airbender-hd.webp');
+    background-size: contain; /* або 'cover' для повного покриття */
+    background-repeat: no-repeat;
+    background-position: center center; /* Центрування по вертикалі і горизонталі */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin-top: 0px;
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(231, 205, 255);
+    padding: 78px 73px;
+    border-radius: 50%;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-right: 18px;
+}
